@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: Yang Mo
+subtitle: 'Welcome to my blog'
 description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+keywords: 'Machine Learing, Deep Learning, Superconductor Science, Python, C++, C, Linux, Ubuntu, Git, Github, Hexo, Blog, Yang Mo'
+author: Yang Mo
+language: zh-CN
+timezone: 'Japan'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://yang-mo.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,3 +103,11 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+markdown_it_plus:
+  plugins:
+    - plugin:
+      name: '@neilsustc/markdown-it-katex'
+      enable: true
+      options:
+        strict: false
